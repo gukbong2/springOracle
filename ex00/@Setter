@@ -1,0 +1,6 @@
+@Setter의 3가지 속성
+	1.value = 접근 제한 속성. 기본값은 lombok.AccessLevel.PUBLIC
+	2.onMethod = 메소드에 추가할 어노테이션을 지정 
+		ex) @Setter(onMethod_={@AnnotationGohere}) 
+	3.onParam = 메소드의 파라미터에 어노테이션을 사용하는 경우에 적용
+	
