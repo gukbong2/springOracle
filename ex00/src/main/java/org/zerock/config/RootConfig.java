@@ -36,7 +36,7 @@ public class RootConfig {
 		sqlSessionFactory.setDataSource(dataSource());
 		return (SqlSessionFactory) sqlSessionFactory.getObject();
 	}
-	
-	
-	
 }
+	
+	
+	
